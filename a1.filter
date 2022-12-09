@@ -1,0 +1,47 @@
+# Filter generated semi-manually with chatGPT assistance.
+#
+# Copyright (c) 2022 OpenAI
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Author: aseek
+# Version: 1.19.2022.497.1
+# LastUpdate: 2022-12-09T06:41:39Z
+
+Hide
+Rarity = Normal
+LinkedSockets < 2
+Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields"
+
+# Armor less than equipped.
+Hide
+Class "Wands" "Daggers" "Staves" "Sceptres"
+Rarity = Normal
+LinkedSockets < 3
+
+# Helmets less than equipped.
+Hide
+Class "Helmets"
+Rarity = Rare
+LinkedSockets < 3
+
+# Hide weapons that don't match the build.
+Hide
+Class "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces"
+
+Show
+# Chromatic Orbs
+SocketGroup RGB
+SetBorderColor 255 255 255 255
+
+Show
