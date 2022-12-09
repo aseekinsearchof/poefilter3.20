@@ -15,8 +15,8 @@
 # limitations under the License.
 
 # Author: aseek
-# Version: 1.19.2022.497.1
-# LastUpdate: 2022-12-09T06:41:39Z
+# Version: 1.21.2022.497.1
+# LastUpdate: 2022-12-09T07:43:47Z
 
 Hide
 Rarity = Normal
@@ -35,9 +35,19 @@ Class "Helmets"
 Rarity = Rare
 LinkedSockets < 3
 
-# Hide weapons that don't match the build.
+# Hide one hand and two hand axes and one hand and two hand maces.
 Hide
 Class "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces"
+
+# Hide normal rarity bows and claws.
+Hide
+Class "Bows" "Claws"
+Rarity = Normal
+
+# Hide normal rarity gloves.
+Hide
+Class "Gloves"
+Rarity = Normal
 
 Show
 # Chromatic Orbs
